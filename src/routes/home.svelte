@@ -57,7 +57,6 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        text-fill-color: transparent;
     }
     .greeting {
         color: #fff;
@@ -107,11 +106,4 @@
         background-color: #000;
     }
     /* card in rem */
-    .card {
-        width: 20rem;
-        height: 20rem;
-        background-color: #fff;
-        border-radius: 0.5rem;
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    }
 </style>
