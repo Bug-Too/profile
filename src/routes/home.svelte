@@ -30,14 +30,19 @@
             </div>
         </div>
     </div>
-    <div class="home-body">
+    <div class="home-body pb-8">
         <div class="max-w-screen-lg mx-auto pt-4">
             <span class="gradient-header">Skill-Set </span> <span class="text-5xl"> ✨</span>
             <div class="grid-container justify-center">
-                <div class="p-4">
+                
 
                 <SkillCard title = "UI/UX Designer" img_src = "/paint_icon.png" />
-                </div>
+                <SkillCard title = "Web Developer" img_src = "/web_icon.png" />
+                <SkillCard title = "Git Version Control" img_src = "/git_icon.png" />
+                <SkillCard title = "Game Developer" img_src = "/game_icon.png" />
+                <SkillCard title = "OOP" img_src = "/oop_icon.png" />
+                <SkillCard title = "Functional Programming" img_src = "/fp_icon.png" />
+                
                 
             </div>
         </div>

@@ -9,9 +9,11 @@
     export let img_src;
 </script>
 
-<div class="grid-item card">
-    <img src={img_src} alt="example" class="pt-2" />
-    <h1 class="text-2xl text-center pt-12">{title}</h1>
+<div class="px-4 pt-4">
+    <div class="grid-item card">
+        <img src={img_src} alt="example" class="pt-2" />
+        <h1 class="text-2xl text-center pt-14">{title}</h1>
+    </div>
 </div>
 
 <style>
