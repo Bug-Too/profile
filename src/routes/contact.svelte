@@ -18,7 +18,7 @@
     }
 </script>
 
-<div class="contact h-screen">
+<div class="contact h-screen px-8">
     <div class="max-w-screen-lg mx-auto">
         <h1 class="main_header">Contact</h1>
         <form on:submit|preventDefault={handleSubmit}>
@@ -84,7 +84,7 @@
     .main_header {
         font-style: normal;
         font-weight: 700;
-        font-size: 96px;
+        font-size: 5rem;
         line-height: 145px;
 
         background: linear-gradient(89.23deg, #696eff 0.36%, #f8acff 83.17%);

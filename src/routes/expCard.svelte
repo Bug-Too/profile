@@ -39,7 +39,7 @@
 
 <style>
     .card {
-        width: 20rem;
+        width: 18rem;
         /* height: 20rem; */
         background-color: #fff;
         border-radius: 0.5rem;

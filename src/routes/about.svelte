@@ -3,7 +3,7 @@
 </script>
 
 <div class="background">
-    <div class="max-w-screen-lg mx-auto">
+    <div class="max-w-screen-lg mx-auto px-8">
         <h1 class="main_header">About</h1>
         <p class="paragraph">
             I'm a computer engineering undergraduate student at Chiang Mai
@@ -14,7 +14,7 @@
             your technology to the next level.
         </p>
         <h2 class="sub_header pt-14 py-2">Project</h2>
-        <div class="grid-container">
+        <div class="flex flex-row flex-wrap justify-center">
             <ExpCard
                 title="UI/UX Designer"
                 img_src="/paint_icon.png"
@@ -59,7 +59,7 @@
             />
         </div>
         <h2 class="sub_header pt-14 py-2">Experience</h2>
-        <div class="grid-container">
+        <div class="flex flex-row flex-wrap justify-center">
             <ExpCard
                 title="UI/UX Designer"
                 img_src="/paint_icon.png"

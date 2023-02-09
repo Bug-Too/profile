@@ -28,9 +28,11 @@
         about_selected = "";
     }
 
-    export const test = () => { console.log('testing function') }
+    let width = 1920;
 </script>
 
+<svelte:window bind:innerWidth={width}/>
+{#if width > 1024}
 <div style="background-color: {bg_color}">
     <div
         class="pt-4 navbar text-right flex flex-row place-content-end place-item-center place-self-center max-w-screen-lg mx-auto"
@@ -51,6 +53,28 @@
         </div>
     </div>
 </div>
+{:else}
+<div style="background-color: {bg_color}">
+    <div
+        class="pt-4 navbar text-right flex flex-row place-content-center place-item-center place-self-center max-w-screen-lg mx-auto"
+    >
+        <div class="px-2">
+            <a href="/#"><button on:click={home} class={home_selected}> Home </button></a>
+        </div>
+        <div class="px-2">
+            <a href="/#/about"><button on:click={about} class={about_selected}> About </button></a>
+        </div>
+        <div class="px-2">
+            <a href="/#/contact">
+                            <button on:click={contact} class={contact_selected}>
+                Contact
+            </button>
+            </a>
+
+        </div>
+    </div>
+</div>
+{/if}
 
 <style>
     .navbar {

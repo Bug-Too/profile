@@ -1,6 +1,6 @@
 <script>
     import SkillCard from "./skillCard.svelte";
-    
+    import Skillset from "./skillset.svelte";
 </script>
 
 <div class="">
@@ -45,18 +45,7 @@
             <span class="gradient-header">Skill-Set </span>
             <span class="text-5xl"> ✨</span>
             <div class="grid-container justify-center">
-                <SkillCard title="UI/UX Designer" img_src="/paint_icon.png" />
-                <SkillCard title="Web Developer" img_src="/web_icon.png" />
-                <SkillCard
-                    title="Git Version Control"
-                    img_src="/git_icon.png"
-                />
-                <SkillCard title="Game Developer" img_src="/game_icon.png" />
-                <SkillCard title="OOP" img_src="/oop_icon.png" />
-                <SkillCard
-                    title="Functional Programming"
-                    img_src="/fp_icon.png"
-                />
+                <Skillset />
             </div>
         </div>
     </div>
