@@ -27,6 +27,8 @@
         home_selected = "";
         about_selected = "";
     }
+
+    export const test = () => { console.log('testing function') }
 </script>
 
 <div style="background-color: {bg_color}">
@@ -34,15 +36,18 @@
         class="pt-4 navbar text-right flex flex-row place-content-end place-item-center place-self-center max-w-screen-lg mx-auto"
     >
         <div class="px-2">
-            <button on:click={home} class={home_selected}> Home </button>
+            <a href="/#"><button on:click={home} class={home_selected}> Home </button></a>
         </div>
         <div class="px-2">
-            <button on:click={about} class={about_selected}> About </button>
+            <a href="/#/about"><button on:click={about} class={about_selected}> About </button></a>
         </div>
         <div class="px-2">
-            <button on:click={contact} class={contact_selected}>
+            <a href="/#/contact">
+                            <button on:click={contact} class={contact_selected}>
                 Contact
             </button>
+            </a>
+
         </div>
     </div>
 </div>

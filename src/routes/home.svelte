@@ -1,6 +1,8 @@
 <script>
     import SkillCard from "./skillCard.svelte";
+    
 </script>
+
 <div class="">
     <div class="home-header ">
         <div class="grid-container max-w-screen-lg mx-auto pt-4">
@@ -27,29 +29,48 @@
                     " Empowering the digital world, one line of code at a time.
                     "
                 </p>
+                <div class="pt-8">
+                    <a href="mailto:purichseenuallae@gmail.com"><button
+                        class="contact_button text-black px-8 py-6 rounded-full "
+                    >
+                        Contact Me
+                    </button></a>
+                    
+                </div>
             </div>
         </div>
     </div>
     <div class="home-body pb-8">
         <div class="max-w-screen-lg mx-auto pt-4">
-            <span class="gradient-header">Skill-Set </span> <span class="text-5xl"> ✨</span>
+            <span class="gradient-header">Skill-Set </span>
+            <span class="text-5xl"> ✨</span>
             <div class="grid-container justify-center">
-                
-
-                <SkillCard title = "UI/UX Designer" img_src = "/paint_icon.png" />
-                <SkillCard title = "Web Developer" img_src = "/web_icon.png" />
-                <SkillCard title = "Git Version Control" img_src = "/git_icon.png" />
-                <SkillCard title = "Game Developer" img_src = "/game_icon.png" />
-                <SkillCard title = "OOP" img_src = "/oop_icon.png" />
-                <SkillCard title = "Functional Programming" img_src = "/fp_icon.png" />
-                
-                
+                <SkillCard title="UI/UX Designer" img_src="/paint_icon.png" />
+                <SkillCard title="Web Developer" img_src="/web_icon.png" />
+                <SkillCard
+                    title="Git Version Control"
+                    img_src="/git_icon.png"
+                />
+                <SkillCard title="Game Developer" img_src="/game_icon.png" />
+                <SkillCard title="OOP" img_src="/oop_icon.png" />
+                <SkillCard
+                    title="Functional Programming"
+                    img_src="/fp_icon.png"
+                />
             </div>
         </div>
     </div>
 </div>
 
 <style>
+    .contact_button {
+        background: #a9def9;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+    }
     .gradient-header {
         font-style: normal;
         font-weight: 700;
