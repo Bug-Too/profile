@@ -133,8 +133,4 @@
 
         color: #ffffff;
     }
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
 </style>
