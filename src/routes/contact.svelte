@@ -4,8 +4,9 @@
     let message = "";
 
     async function handleSubmit() {
+        alert("505 error");
         const response = await fetch(
-            "https://your-backend-service.com/sendemail",
+            "",
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
