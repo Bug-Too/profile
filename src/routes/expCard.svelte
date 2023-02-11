@@ -26,8 +26,8 @@
 
 <div class="px-4 pt-4">
     <div class="grid-item card">
-        <img src={img_src} alt="example" class="pt-2" />
-        <a href={link}><h1 class="text-2xl text-center pt-14">🔗{title}</h1></a>
+        <img src={img_src} alt="example" class="rounded-t-lg" />
+        <a href={link}><h1 class="text-2xl text-center pt-4">🔗{title}</h1></a>
         <p class="cardp px-8 py-4">
             {description}
         </p>
