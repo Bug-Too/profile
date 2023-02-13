@@ -11,13 +11,13 @@
 <div class="contact h-screen px-8">
     <div class="max-w-screen-lg mx-auto">
         <h1 class="main_header">Contact</h1>
-        <form on:submit|preventDefault={handleSubmit}>
+        <form action="https://formsubmit.co/e237ccbbbd7a4c84263a1222ccc94990" method="POST">
             <label for="name" class="text-white">Name</label>
             <div class="py-2">
                 <input
                     type="text"
                     id="name"
-                    bind:value={name}
+                    name="name"
                     placeholder="Your name"
                     class="w-full py-4 px-4 rounded-xl"
                 />
@@ -27,7 +27,7 @@
                 <input
                     type="email"
                     id="email"
-                    bind:value={email}
+                    name="email"
                     placeholder="Your email"
                     class="w-full py-4 px-4 rounded-xl"
                 />
@@ -35,7 +35,7 @@
             <label for="message" class="text-white">Message</label>
             <div class="py-2">
                 <textarea
-                    bind:value={message}
+                    name="message"
                     rows="8"
                     placeholder="Your message"
                     class="w-full py-4 px-4 rounded-xl"
